@@ -16,13 +16,13 @@
 #include <ArduinoJson.h>
 
 // Network and Firebase credentials
-#define WIFI_SSID "IPCS,3FLOOR"
-#define WIFI_PASSWORD "Ipcs@2026"
+#define WIFI_SSID "your wifi's SSID"
+#define WIFI_PASSWORD "Your wifi's Password"
 
-#define Web_API_KEY "AIzaSyCfhCSvK9DFcbjgNbfkKUhMLr9Q7jxSicE"
-#define DATABASE_URL "https://led123-dc7d8-default-rtdb.asia-southeast1.firebasedatabase.app"
-#define USER_EMAIL "adithjohn.ipcs@gmail.com"
-#define USER_PASS  "12345678"
+#define Web_API_KEY "Your api key"
+#define DATABASE_URL "Your url"
+#define USER_EMAIL "yourmail id"
+#define USER_PASS  "user password"
 
 // User functions
 void processData(AsyncResult &aResult);
